@@ -5,12 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="322eb616-cb01-4116-907d-3e2385b0a30d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Length.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Length.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Unit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LengthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LengthTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,12 +37,92 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.LengthTest.executor": "Run",
+    "JUnit.LengthTest.shouldReturn100CmFor1M.executor": "Run",
+    "JUnit.LengthTest.shouldReturn1MFor100Cm.executor": "Run",
+    "JUnit.LengthTest.shouldReturn1mFor100CM.executor": "Run",
+    "JUnit.LengthTest.shouldReturn200CmForAdding100CmAnd1m.executor": "Run",
+    "JUnit.LengthTest.shouldReturn2CmForLength1Cm.executor": "Run",
+    "JUnit.LengthTest.shouldReturn2mForAdding1mAnd100cm.executor": "Run",
+    "JUnit.LengthTest.shouldReturnFalseForComparing10CmAnd1M.executor": "Run",
+    "JUnit.LengthTest.shouldReturnFalseForNonEqualLengths.executor": "Run",
+    "JUnit.LengthTest.shouldReturnInchConversionForCm.executor": "Run",
+    "JUnit.LengthTest.shouldReturnTrueForComparing1MAnd100Cm.executor": "Run",
+    "JUnit.LengthTest.shouldReturnTrueForEqualLengths.executor": "Run",
+    "JUnit.LengthTest.shouldThrowIllegalArgumentExceptionForNonPositiveLengths.executor": "Run",
+    "JUnit.LengthTest.shouldThrowIllegalArgumentExceptionIfLengthsOfDifferentUnitsAreAdded.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.LengthTest">
+    <configuration name="LengthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Length" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LengthTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LengthTest.shouldReturn100CmFor1M" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Length" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LengthTest" />
+      <option name="METHOD_NAME" value="shouldReturn100CmFor1M" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LengthTest.shouldReturn200CmForAdding100CmAnd1m" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Length" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LengthTest" />
+      <option name="METHOD_NAME" value="shouldReturn200CmForAdding100CmAnd1m" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LengthTest.shouldReturnFalseForComparing10CmAnd1M" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Length" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LengthTest" />
+      <option name="METHOD_NAME" value="shouldReturnFalseForComparing10CmAnd1M" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LengthTest.shouldReturnTrueForComparing1MAnd100Cm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Length" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LengthTest" />
+      <option name="METHOD_NAME" value="shouldReturnTrueForComparing1MAnd100Cm" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LengthTest" />
+        <item itemvalue="JUnit.LengthTest.shouldReturnTrueForComparing1MAnd100Cm" />
+        <item itemvalue="JUnit.LengthTest.shouldReturnFalseForComparing10CmAnd1M" />
+        <item itemvalue="JUnit.LengthTest.shouldReturn100CmFor1M" />
+        <item itemvalue="JUnit.LengthTest.shouldReturn200CmForAdding100CmAnd1m" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
